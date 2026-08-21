@@ -9,6 +9,8 @@
 
 <body>
 
+<div id="toastContainer" class="toast-container"></div>
+
 <nav class="navbar">
 
     <div class="nav-inner">
@@ -91,6 +93,7 @@
 
 
         <button
+            type="button"
             class="btn btn-primary"
             onclick="calculateBill()">
 

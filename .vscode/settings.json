@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "D:/Downloads/apache-tomcat-9.0.120/lib/servlet-api.jar",
+        "D:/Downloads/apache-tomcat-9.0.120/webapps/electricity3/WEB-INF/lib/*.jar"
+    ]
+}

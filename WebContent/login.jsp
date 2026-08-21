@@ -25,13 +25,14 @@
             ⚠ Invalid username or password.
         </div>
 
-        <form id="loginForm">
+        <form id="loginForm" action="login" method="post">
 
             <div class="form-group">
                 <label>Username</label>
                 <input
                     type="text"
                     id="username"
+                    name="username"
                     placeholder="Enter username"
                     required>
             </div>
@@ -41,6 +42,7 @@
                 <input
                     type="password"
                     id="password"
+                    name="password"
                     placeholder="Enter password"
                     required>
             </div>
@@ -53,7 +55,7 @@
 
         <div class="auth-footer">
             Don't have an account?
-            <a href="register.html">Create Account</a>
+            <a href="register.jsp">Create Account</a>
         </div>
 
     </div>

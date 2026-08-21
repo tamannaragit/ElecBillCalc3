@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div class="auth-page">
+
+    <div class="auth-card">
+
+        <div class="logo">⚡</div>
+
+        <h1>Create Account</h1>
+
+        <p class="subtitle">
+            Create your account to start tracking electricity bills.
+        </p>
+
+        <div id="registerError" class="alert error hidden"></div>
+
+        <form id="registerForm" action="register" method="post">
+
+    <div class="form-group">
+        <label>Full Name</label>
+        <input
+            type="text"
+            id="fullName"
+            name="fullName"
+            placeholder="Enter your name"
+            required>
+    </div>
+
+    <div class="form-group">
+        <label>Username</label>
+        <input
+            type="text"
+            id="regUsername"
+            name="username"
+            placeholder="Choose a username"
+            required>
+    </div>
+
+    <div class="form-group">
+        <label>Password</label>
+        <input
+            type="password"
+            id="regPassword"
+            name="password"
+            placeholder="Create a password"
+            required>
+    </div>
+
+    <div class="form-group">
+        <label>Confirm Password</label>
+        <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            placeholder="Re-enter your password"
+            required>
+    </div>
+
+    <button class="btn btn-primary" type="submit">
+        Create Account
+    </button>
+
+</form>
+
+        <div class="auth-footer">
+            Already have an account?
+            <a href="login.jsp">Back to Login</a>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

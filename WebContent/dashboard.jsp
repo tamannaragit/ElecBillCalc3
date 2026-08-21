@@ -88,7 +88,7 @@
 
         </div>
 
-        <a class="btn-small" href="calculate.html">
+        <a class="btn-small" href="calculate.jsp">
             Calculate Monthly Bill →
         </a>
 
